@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Coffee Trailer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <h1>Your Coffee Trailer Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Your Coffee Trailer!</h2>
+        <p>Serving the best coffee on wheels.</p>
+        <img src="your-coffee-image.jpg" alt="Coffee Trailer">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a mobile coffee trailer, bringing fresh, locally roasted coffee to events and neighborhoods near you.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Espresso - $3.00</li>
+            <li>Latte - $4.00</li>
+            <li>Cappuccino - $4.00</li>
+            <li>Cold Brew - $4.50</li>
+            <li>Specialty Drinks - $5.00</li>
+        </ul>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations">
+        <h2>Where To Find Us</h2>
+        <p>We are located at various spots. Check the schedule below!</p>
+        <ul>
+            <li>Monday - Downtown Square, 9 AM - 3 PM</li>
+            <li>Wednesday - Farmer's Market, 8 AM - 2 PM</li>
+            <li>Friday - City Park, 10 AM - 4 PM</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Coffee Trailer. Follow us on <a href="https://instagram.com">Instagram</a>.</p>
+    </footer>
+
+</body>
+</html>
